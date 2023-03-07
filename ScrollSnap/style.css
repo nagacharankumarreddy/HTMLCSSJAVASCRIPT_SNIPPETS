@@ -1,0 +1,28 @@
+.container{
+    display: flex;
+    height: 400px;
+    width: auto;
+    border: 2px solid black;
+    overflow: auto;
+    scroll-snap-type: x mandatory;
+    border-radius: 5px;
+}
+#item{
+    border: 2px solid red;
+    height: 255px;
+    width: 200px;
+    scroll-snap-align:start;
+    flex-shrink: 0;
+    margin: 10px;
+    border-radius: 5px;
+}
+.image{
+    height: 100px;
+    width: 150px;
+}
+.price{
+    font-size: larger;
+    font-weight: 600;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
