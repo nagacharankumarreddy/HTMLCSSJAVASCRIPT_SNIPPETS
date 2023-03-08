@@ -1,8 +1,12 @@
+#about{
+    text-align: center;
+    font-size: 900;
+    font-weight:bolder;
+}
 .container{
     display: flex;
-    height: 400px;
+    height: 300px;
     width: auto;
-    border: 2px solid black;
     overflow: auto;
     scroll-snap-type: x mandatory;
     border-radius: 5px;
@@ -16,13 +20,36 @@
     margin: 10px;
     border-radius: 5px;
 }
+#img-wrapper{
+    display: grid;
+    place-items: center;
+
+}
 .image{
     height: 100px;
     width: 150px;
+    border: 2px dotted #ccc;
 }
 .price{
     font-size: larger;
     font-weight: 600;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-align: center;
+}
+.buy{
+    text-align: center;
+    font-size: larger;
+    font-weight: 600;
+    margin-top: 1rem;
+}
+
+.buy-button{
+    color: rgb(219, 215, 211);
+    background-color: black;
+    border-radius: 20%;
+}
+.buy-button:hover{
+    background-color: rgb(219, 215, 211);
+    color: black;
+    border-radius: 20%;
 }
